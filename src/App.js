@@ -6,7 +6,7 @@ import Layout from "./layout/Layout";
 
 // pages
 import Home from "./pages/Home";
-import About from "./pages/About";
+import AddPlane from "./pages/AddPlane";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -15,8 +15,8 @@ const App = () => {
       <Container>
         <Routes>
           <Route path="/" element={<Home />} exact />
-          <Route path="/about" element={<About />} />
-          <Route element={<NotFound />} />
+          <Route path="/add" element={<AddPlane />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Container>
     </Layout>

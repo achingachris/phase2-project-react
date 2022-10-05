@@ -1,29 +1,31 @@
-import { useEffect, useState } from "react";
-import PlaneCard from "./PlaneCard";
+import { useEffect, useState } from 'react'
+import PlaneCard from './PlaneCard'
 
 const Planes = () => {
-  const API_URL = "http://localhost:5000/planes";
-  const [planes, setPlanes] = useState([]);
+  // const API_URL = 'http://localhost:5000/planes'
+  const CYCLIC_URL = 'https://embarrassed-tan-starfish.cyclic.app/planes'
+
+  const [planes, setPlanes] = useState([])
 
   useEffect(() => {
-    fetch(API_URL)
+    fetch(CYCLIC_URL)
       .then((res) => {
         if (!res.ok) {
-          throw Error("Could not fetch the data for that resource");
+          throw Error('Could not fetch the data for that resource')
         }
-        return res.json();
+        return res.json()
       })
       .then((data) => {
-        setPlanes(data);
+        setPlanes(data)
       })
       .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
+        console.log(err.message)
+      })
+  }, [])
 
   return (
-    <div className="container mt-5 mb-3">
-      <div className="row">
+    <div className='container mt-5 mb-3'>
+      <div className='row'>
         {planes.map((plane) => (
           <PlaneCard
             key={plane.id}
@@ -39,7 +41,7 @@ const Planes = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Planes;
+export default Planes

@@ -67,7 +67,6 @@ PlaneCard.propTypes = {
   airline: PropTypes.string.isRequired,
   airport: PropTypes.string.isRequired,
   destination: PropTypes.string.isRequired,
-  rate: PropTypes.number.isRequired,
 };
 
 PlaneCard.defaultProps = {

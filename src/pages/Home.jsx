@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Meta from "../components/Meta";
+import Planes from "../components/homepage/Planes";
 
 const Home = () => {
   // page content
@@ -10,6 +11,7 @@ const Home = () => {
     <div>
       <Meta title={pageTitle} />
       <Header head={pageTitle} description={pageDescription} />
+      <Planes />
     </div>
   );
 };

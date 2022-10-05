@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# React Bootstrap Starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![logo](./screenshots/react-bootstrap-starter.png)
 
-## Available Scripts
+[Documentation](https://chrisdevcode.hashnode.dev/react-and-bootstrap-starter-template) | [Live Demo](https://react-bootstrap-temp.netlify.app/)
 
-In the project directory, you can run:
+React Bootstrap Starter is a starter template for react and bootstrap created by [Chris Achinga](http://chrisdev.netlify.app). This theme uses Create React App, react-bootstrap and gh-pages.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Download and Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To begin using this template, choose one of the following options to get started:
 
-### `npm test`
+Fork and clone the repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the dependencies:
 
-### `npm run build`
+```powershell-interactive
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start editing and customizing according to your needs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run locally:
 
-### `npm run eject`
+```powershell-interactive
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org/)
+- [Create React App](https://create-react-app.dev/)
+- [react-bootstrap](https://react-bootstrap.github.io/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Bugs and Issues
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Have a bug or an issue with this template? Open a new issue here on GitHub.
 
-## Learn More
+## Copyright and License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Copyright 2021 Chris Achinga. Code released under the [MIT license](LICENSE).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Status
 
-### Code Splitting
+<div align='center'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![GitHub forks](https://img.shields.io/github/forks/ChrisAchinga/react-bootstrap-starter)](https://github.com/ChrisAchinga/react-bootstrap-starter/network)
 
-### Analyzing the Bundle Size
+[![GitHub stars](https://img.shields.io/github/stars/ChrisAchinga/react-bootstrap-starter)](https://github.com/ChrisAchinga/react-bootstrap-starter/stargazers)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/status.svg)](https://depfu.com)
 
-### Making a Progressive Web App
+[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/overview.svg)](https://depfu.com/github/ChrisAchinga/react-bootstrap-starter?project_id=18009)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![Depfu](https://badges.depfu.com/badges/80c94d4ad87f69ecde6d83ae05e65b63/count.svg)](https://depfu.com/github/ChrisAchinga/react-bootstrap-starter?project_id=18009)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>

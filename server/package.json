@@ -1,0 +1,22 @@
+{
+  "name": "plane-spotter-jsondb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "cp seeds.json db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

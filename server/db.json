@@ -1,0 +1,40 @@
+{
+  "planes": [
+    {
+      "id": 854,
+      "spotter_name": "Jeroen",
+      "registration": "5Y-KZG",
+      "airline": "Kenya Airways",
+      "aircraft_type": "Boeing 787-800",
+      "time_spotted": "12:00",
+      "date_spotted": "2022-10-01",
+      "airport_spotted": "JKIA",
+      "destination": "Paris",
+      "rate": 74
+    },
+    {
+      "id": 8944,
+      "spotter_name": "CHris",
+      "registration": "A6-EFN",
+      "airline": "Emirates SkyCargo",
+      "aircraft_type": "Boeing 777-F1H",
+      "time_spotted": "09:00",
+      "date_spotted": "2022-11-05",
+      "airport_spotted": "DXB",
+      "destination": "Amsterdam",
+      "rate": 33
+    },
+    {
+      "id": 56978,
+      "spotter_name": "Trump",
+      "registration": "5Y-YHJ",
+      "airline": "Ethiopian Airways",
+      "aircraft_type": "Boeing 737-800",
+      "time_spotted": "11:00",
+      "date_spotted": "2021-10-01",
+      "airport_spotted": "JKIA",
+      "destination": "Kampala",
+      "rate": 88
+    }
+  ]
+}

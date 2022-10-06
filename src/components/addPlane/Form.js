@@ -42,8 +42,8 @@ const Form = () => {
     setRate(e.target.value)
   }
 
-    // const API_URL = 'http://localhost:5000/planes'
-    const CYCLIC_URL = 'https://embarrassed-tan-starfish.cyclic.app/planes'
+  // const API_URL = 'http://localhost:5000/planes'
+  const CYCLIC_URL = 'https://embarrassed-tan-starfish.cyclic.app/planes'
 
   //   handle form submit
   const handleSubmit = (e) => {

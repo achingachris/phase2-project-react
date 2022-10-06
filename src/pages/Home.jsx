@@ -1,11 +1,11 @@
-import Header from "../components/Header";
-import Meta from "../components/Meta";
-import Planes from "../components/homepage/Planes";
+import Header from '../components/Header'
+import Meta from '../components/Meta'
+import Planes from '../components/homepage/Planes'
 
 const Home = () => {
   // page content
-  const pageTitle = "Plane Spotter";
-  const pageDescription = "One Stop for all your plane spotting Geeky needs";
+  const pageTitle = 'Plane Spotter'
+  const pageDescription = 'One Stop for all your plane spotting Geeky needs'
 
   return (
     <div>
@@ -13,7 +13,7 @@ const Home = () => {
       <Header head={pageTitle} description={pageDescription} />
       <Planes />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

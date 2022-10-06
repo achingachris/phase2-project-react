@@ -1,12 +1,12 @@
 const Footer = () => {
-  const year = new Date().getFullYear();
+  const year = new Date().getFullYear()
   return (
     <>
-      <footer className="head-font text-center text-capitalize">
+      <footer className='head-font text-center text-capitalize'>
         Plane Spotter &copy; {year}
       </footer>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

@@ -1,5 +1,14 @@
 # Plane Spotter
 
+View The Project Live: [https://planespotter.netlify.app/](https://planespotter.netlify.app/)
+
+### Screenshots
+
+#### Home Page
+#### Add Plane Page
+
+![Add Page](/addPage.png)
+
 ## Description
 
 Plane Spotter is a React Application for Aviation Geeks and Plane lovers that enables them to add a plane spotted and search for planes spotted by other people. The users (Aviation Geeks, Plane Spotters, Anyone) can view all planes spotted, add a plane spotted, search a plane and get details of when it was last spotted, i.e where it was from and its destination.

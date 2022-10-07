@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
 import PlaneCard from './PlaneCard'
+import Search from './Search'
 
 const Planes = () => {
-  // const API_URL = 'http://localhost:5000/planes'
-  const CYCLIC_URL = 'https://embarrassed-tan-starfish.cyclic.app/planes'
-
   const [planes, setPlanes] = useState([])
+  const [search, setSearch] = useState('')
+
+  const CYCLIC_URL = 'https://embarrassed-tan-starfish.cyclic.app/planes'
 
   useEffect(() => {
     fetch(CYCLIC_URL)
@@ -23,10 +24,23 @@ const Planes = () => {
       })
   }, [])
 
+  const handleSearchText = (e) => {
+    setSearch(e.target.value)
+    console.log('value is:', e.target.value)
+  }
+
+  // display search results
+  const filteredPlanes = planes.filter((plane) => {
+    return plane.airline.toLowerCase().includes(search.toLowerCase())
+  })
+
+  console.log(filteredPlanes)
+
   return (
     <div className='container mt-5 mb-3'>
+      <Search search={search} handleSearchTextChange={handleSearchText} />
       <div className='row'>
-        {planes.map((plane) => (
+        {filteredPlanes.map((plane) => (
           <PlaneCard
             key={plane.id}
             plane={plane}

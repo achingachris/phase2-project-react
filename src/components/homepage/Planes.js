@@ -51,6 +51,7 @@ const Planes = () => {
             airport={plane.airport}
             destination={plane.destination}
             rate={plane.rate}
+            likes={plane.likes}
           />
         ))}
       </div>

@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body {
-  font-family: "Kalam", cursive;
+  font-family: 'Kalam', cursive;
 }
 
 main {
@@ -10,11 +10,11 @@ main {
 }
 
 form {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .head-font {
-  font-family: "Peralta", cursive;
+  font-family: 'Peralta', cursive;
 }
 
 .card {
@@ -67,3 +67,9 @@ form {
 .text2 {
   color: #a5aec0;
 }
+
+.form-input:focus {
+  box-shadow: none;
+  border: none;
+}
+

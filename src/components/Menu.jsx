@@ -19,14 +19,6 @@ const Menu = () => {
               </Link>
             </li>
           </ul>
-
-          <div className='col-md-3 text-end'>
-            <Link to='/'>
-              <button type='button' className='btn btn-outline-primary me-2'>
-                Documentation
-              </button>
-            </Link>
-          </div>
         </Nav>
       </header>
     </Container>

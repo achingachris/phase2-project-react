@@ -68,8 +68,3 @@ form {
   color: #a5aec0;
 }
 
-.form-input:focus {
-  box-shadow: none;
-  border: none;
-}
-

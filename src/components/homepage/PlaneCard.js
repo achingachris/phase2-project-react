@@ -8,6 +8,7 @@ const PlaneCard = ({
   airport,
   destination,
   rate,
+  likes,
 }) => {
   return (
     <div className='col-md-4'>
@@ -34,6 +35,16 @@ const PlaneCard = ({
             <br />
             {airport}-{destination}
           </h3>
+          <div className='mt-3'>
+            <button type='button' className='btn btn-danger'>
+              <i className='bx bxs-like' />{' '}
+              <span className='badge text-bg-dark'>{likes}</span>
+            </button>
+
+            {/* <span className='badge bg-danger'>
+              <i className='bx bxs-plane' /> {likes}
+            </span> */}
+          </div>
           <div className='mt-5'>
             <div className='progress'>
               <div
@@ -77,4 +88,5 @@ PlaneCard.defaultProps = {
   airport: 'DXB',
   destination: 'Dubai',
   rate: 10,
+  likes: 0,
 }

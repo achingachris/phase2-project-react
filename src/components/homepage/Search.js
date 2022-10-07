@@ -1,20 +1,22 @@
-const Search = ({search, onSearchChange}) => {
+const Search = ({ searchText, handleSearchTextChange }) => {
   return (
     <>
-      <div className='container'>
-        <div className='row height d-flex justify-content-center align-items-center'>
-          <div className='col-md-6'>
-            <div className='form'>
-              <input
-                type='text'
-                className='form-control form-input'
-                placeholder='Search for planes spotted'
-                onChange={onSearchChange}
-                value={search}
-              />
-            </div>
+      <div className='container mb-4'>
+        <form>
+          <div className='mb-3'>
+            <label htmlFor='search' className='form-label'>
+              Search For Plane Name
+            </label>
+            <input
+              type='text'
+              className='form-control'
+              value={searchText}
+              onChange={handleSearchTextChange}
+              name='search'
+              placeholder='Search by Airline Name'
+            />
           </div>
-        </div>
+        </form>
       </div>
     </>
   )

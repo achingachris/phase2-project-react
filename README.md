@@ -5,6 +5,8 @@ View The Project Live: [https://planespotter.netlify.app/](https://planespotter.
 ### Screenshots
 
 #### Home Page
+![Home Page](/home.png)
+
 #### Add Plane Page
 
 ![Add Page](/addPage.png)

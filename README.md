@@ -1,6 +1,8 @@
 # Plane Spotter
 
 View The Project Live: [https://planespotter.netlify.app/](https://planespotter.netlify.app/)
+JSON Server API Endpoint: [https://embarrassed-tan-starfish.cyclic.app/planes](https://embarrassed-tan-starfish.cyclic.app/planes)
+JSON Server Repo: https://github.com/achingachris/phase2-project-jsondb
 
 ### Screenshots
 
@@ -23,6 +25,7 @@ Plane Spotter is a React Application for Aviation Geeks and Plane lovers that en
 
 ## Server
 - JSON DB
+
 
 ## DevOps & Deployment
 - GitHub

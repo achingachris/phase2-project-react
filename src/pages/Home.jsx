@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 import Planes from '../components/homepage/Planes'
+import Search from '../components/homepage/Search'
 
 const Home = () => {
   // page content
@@ -11,6 +12,7 @@ const Home = () => {
     <div>
       <Meta title={pageTitle} />
       <Header head={pageTitle} description={pageDescription} />
+      <Search />
       <Planes />
     </div>
   )
